@@ -12,6 +12,19 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-junit
+    testCompile group: 'io.cucumber', name: 'cucumber-junit', version: '6.6.0'
+// https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+    compile group: 'io.cucumber', name: 'cucumber-java', version: '6.6.0'
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.21'
+
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-core
+    compile group: 'io.cucumber', name: 'cucumber-core', version: '6.6.0'
+// https://mvnrepository.com/artifact/org.postgresql/postgresql
+    compile group: 'org.postgresql', name: 'postgresql', version: '42.2.16'
+
+
     testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.6.2'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.13.3'
